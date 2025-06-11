@@ -286,7 +286,7 @@ int main(){
     case 1: {
         double media1 = arredondarMediaPrimeiroTrimestre();
         mediaTotal += media1;
-        aprovacao(media1);
+        aprovacao(mediaTotal);
         break;
     }
 
@@ -294,7 +294,7 @@ int main(){
         double media1 = arredondarMediaPrimeiroTrimestre();
         double media2 = arredondarMediaSegundoTrimestre();
         mediaTotal += media1 + media2;
-        aprovacao(media1, media2, mediaTotal);
+        aprovacao(mediaTotal);
         break;
     }
 
@@ -303,7 +303,7 @@ int main(){
         double media2 = arredondarMediaSegundoTrimestre();
         double media3 = arredondarMediaTerceiroTrimestre();
         mediaTotal += media1 + media2 + media3;
-        aprovacao(media1, media2, media3, mediaTotal);
+        aprovacao(mediaTotal);
         break;
     }
 
@@ -313,7 +313,7 @@ int main(){
         double media3 = arredondarMediaTerceiroTrimestre();
         double media4 = arredondarMediaQuartoTrimestre();
         mediaTotal += media1 + media2 + media3 + media4;
-        aprovacao(media1, media2, media3, media4, mediaTotal);
+        aprovacao(mediaTotal);
         break;
     }
 
